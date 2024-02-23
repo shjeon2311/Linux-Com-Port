@@ -1,0 +1,29 @@
+Checking for USB Device:
+
+	ls /dev/tty*
+	/dev/ttyACM0 (or) ACM1
+	sudo chmod 777 /dev/ttyACM0 	#Give permission
+
+
+Compiling C code:
+
+	gcc source.c -o executable_name
+	OR: gcc -o executable_name source.c 
+	
+	Example: gcc coms.c -o coms
+	
+
+Compiling C++ code:
+
+	g++ source.c -o executable_name
+	OR: g++ -o executable_name source.c 
+	
+	Example: gcc coms.c -o coms
+
+Running C code:
+
+	./executable_name
+	
+	Example: ./coms
+	
+
