@@ -18,7 +18,8 @@ Compiling C++ code:
 	g++ source.c -o executable_name
 	OR: g++ -o executable_name source.c 
 	
-	Example: gcc coms.c -o coms
+	Example: g++ coms.c -o coms
+
 
 Running C code:
 
